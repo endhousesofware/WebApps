@@ -16,6 +16,17 @@ See appropriate Deployment section.
 
 A collection of web sites and web applications collected together to form a ring that can be placed on a user's web page.
 
+To use copy the files from the github repo into your project directory and place the following code on your webpage:
+
+<PRE><CODE><FONT size='-2'>
+&lt;script src="https://code.jquery.com/jquery-3.4.0.min.js"<br>integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="<br>crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="ehswebring.js" type="text/javascript"&gt;&lt;/script&gt;
+...
+&lt;div id="ehswebring"&gt;&lt;/div&gt;
+...
+&lt;script&gt;initwebring(webringname);&lt;/script&gt;
+</CODE></PRE>
+
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/
